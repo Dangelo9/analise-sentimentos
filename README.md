@@ -1,59 +1,46 @@
 # analise-sentimentos
-Criando um Projeto no Azure AI Foundry
-Antes de tudo, precisamos criar um projeto dentro do Azure AI Foundry, que é a plataforma da Microsoft para desenvolver soluções de IA.
+Criando um Projeto no Azure AI Foundry 
 
-Acesse o Azure AI Foundry.
-Entre na sua conta.
-Clique em Create a project.
-Escolha um nome para o projeto ou mantenha o gerado automaticamente.
-Selecione Criar novo hub, defina um nome exclusivo e clique em Avançar.
-Configure o local do recurso (East US, France Central, Korea Central, West Europe ou West US).
-Clique em Create.
-Aguarde a criação dos seguintes recursos:
-Serviços de IA do Azure
-Hub de IA do Azure
-Projeto de IA do Azure
-Conta de armazenamento
-Cofre de chaves
-Grupo de recursos
-Após a criação, acesse a aba Playgrounds.
-Testando os Recursos do Azure AI Language
-Dentro do Playground de Linguagem do Azure AI Foundry, podemos testar as funcionalidades do Azure AI Language.
+Para iniciar o desenvolvimento de soluções de inteligência artificial na plataforma da Microsoft, o Azure AI Foundry, é necessário criar um projeto.
 
-1. Extraindo Entidades Nomeadas
-As entidades nomeadas representam informações específicas dentro de um texto, como nomes de pessoas, locais e datas.
+Acesso: Navegue até o Azure AI Foundry e faça login com suas credenciais.
+Início do Projeto: Clique em "Iniciar novo projeto".
+Nomeação: Defina um nome personalizado para o projeto ou utilize o nome sugerido pelo sistema.
+Hub de IA: Selecione "Criar um novo hub de IA", forneça um nome único e avance.
+Configuração Regional: Escolha uma região para os recursos (por exemplo, "Leste dos EUA", "Centro da França", "Centro da Coreia", "Oeste da Europa" ou "Oeste dos EUA").
+Criação: Confirme a criação. O sistema provisionará os seguintes componentes: Serviços de IA do Azure, Hub de IA do Azure, Projeto de IA do Azure, Armazenamento, Cofre de Chaves e Grupo de Recursos.
+Playgrounds: Após a conclusão, acesse a seção "Ambientes de Teste".
+Testando as Capacidades do Azure AI Language 
 
-Acesse Extract Information.
-Selecione Extract Named Entities.
-Cole o seguinte texto de exemplo:
-Tired hotel with poor service
-The Royal Hotel, London, United Kingdom
-5/6/2018
-This is an old hotel (has been around since 1950's) and the room furnishings are average - becoming a bit old now and require changing. The internet didn't work and had to come to one of their office rooms to check in for my flight home. The website says it's close to the British Museum, but it's too far to walk.
+Dentro do ambiente de testes do Azure AI Language no Azure AI Foundry, é possível explorar as funcionalidades de processamento de linguagem natural.
 
+Extração de Entidades Nomeadas 
+A identificação de entidades nomeadas permite extrair informações específicas de um texto, como nomes de pessoas, locais e datas.
 
-2. Extraindo Frases-Chave
-Essa funcionalidade permite identificar as informações mais relevantes dentro de um texto.
+Acesso: Vá para "Extrair Informações" e selecione "Extrair Entidades Nomeadas".
 
-Acesse Extract Information.
-Selecione Extract Key Phrases.
-Cole o seguinte exemplo:
-Good Hotel and staff
-The Royal Hotel, London, UK
-3/2/2018
-Clean rooms, good service, great location near Buckingham Palace and Westminster Abbey, and so on. We thoroughly enjoyed our stay. The courtyard is very peaceful and we went to a restaurant which is part of the same group and is Indian (West coast so plenty of fish) with a Michelin Star. We had the taster menu which was fabulous. The rooms were very well appointed with a kitchen, lounge, bedroom and enormous bathroom. Thoroughly recommended.
-Clique em Run e revise as frases-chave extraídas.
-O sistema identifica palavras e frases que capturam a essência do texto.
+Texto de Exemplo: Cole o seguinte texto:
 
+"The tech conference in San Paulo, Brazil, on July 15, 2024, was attended by Maria Silva, CEO of Tech Innovate. The event took place at the Paulista Hotel, which, despite its central location, had some failures in the air conditioning system."
 
-3. Resumindo Textos
-A função de sumarização permite reduzir um texto grande em um resumo conciso.
+Extração de Frases-Chave 
 
-Acesse Summarize Information.
-Selecione Summarize Text.
+Essa funcionalidade identifica as frases e palavras mais relevantes em um texto.
 
-  Cole este exemplo:
-Very noisy and rooms are tiny
-The Lombard Hotel, San Francisco, USA
-9/5/2018
-Hotel is located on Lombard street which is a very busy SIX lane street directly off the Golden Gate Bridge. Traffic from early morning until late at night especially on weekends. Noise would not be so bad if rooms were better insulated but they are not. Had to put cotton balls in my ears to be able to sleep--was too tired to enjoy the city the next day. Rooms are TINY. I picked the room because it had two queen size beds--but the room barely had space to fit them. With family of four in the room it was tight. With all that said, rooms are clean and they've made an effort to update them. The hotel is in Marina district with lots of good places to eat, within walking distance to Presidio. May be good hotel for young stay-up-late adults on a budget.
+Acesso: Vá para "Extrair Informações" e selecione "Extrair Frases-Chave".
+
+Texto de Exemplo: Cole o seguinte texto:
+
+"The Italian restaurant 'Bella Napoli', located in the heart of Rome, Italy, offers an authentic dining experience. The dishes, prepared with fresh and local ingredients, are a true celebration of Italian cuisine. The welcoming atmosphere and attentive service complement the experience, making it a must-visit destination for food lovers."
+
+Execução: Clique em "Executar" e analise as frases-chave extraídas. O sistema identifica os elementos centrais do texto.
+
+Resumo de Textos 
+
+A função de sumarização permite condensar textos extensos em resumos concisos.
+
+Acesso: Vá para "Resumir Informações" e selecione "Resumir Texto".
+
+Texto de Exemplo: Cole o seguinte texto:
+
+"The Amazon Rainforest national park, located in South America, is one of the richest and most diverse ecosystems on the planet. Spanning millions of hectares, the forest is home to a vast array of plant and animal species, many of which are found only in this region. However, the increasing devastation of the forest, driven by illegal logging and agricultural expansion, poses a significant threat to biodiversity and global climate balance. Conservation efforts are crucial to protect this natural heritage for future generations."
