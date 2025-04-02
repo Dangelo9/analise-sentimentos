@@ -1,1 +1,4 @@
+O que é Análise de Sentimentos?
+Análise de Sentimentos é uma das aplicações do Processamento de Linguagem Natural (PLN) usada para identificar emoções e opiniões expressas em textos. No Azure AI Language,
+podemos extrair entidades nomeadas, identificar frases-chave, resumir textos e analisar sentimentos utilizando o Language Studio.
 
